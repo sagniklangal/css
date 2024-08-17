@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+h1{
+  color: white;
+  font-family: "Press Start 2P", "consolas", 'Times New Roman', Times, serif;
+}
+p{
+  color: #00FF73;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: red dotted underline;
+  font-size: 18px;
+}
