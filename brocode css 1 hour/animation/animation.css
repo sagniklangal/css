@@ -1,0 +1,116 @@
+#box1{
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+
+  /* animation: slide; */
+  /* animation-play-state: paused; */
+  /* animation-play-state: running; */
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 1s; */
+  
+  /* animation-timing-function: ease-in; */
+  /* animation-timing-function: ease-out; */
+  /* animation-timing-function: ease; */
+  /* animation-timing-function: linear; */
+  
+  /* animation-duration: 5s; */
+
+  animation: 5s linear 0s infinite running slide;
+}
+
+/* #box1:hover{
+  animation: 5s linear 0s infinite running slide;
+} */
+
+/* #box1:active{
+  animation: 5s linear 0s infinite running slide;
+} */
+
+@keyframes slide {
+  from{
+    margin-left: 0%;
+  }
+  to{
+    margin-left: 100%;
+  }
+}
+
+#box2{
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+  animation: 5s linear 0s infinite running myRotate;
+}
+
+/* #box2:active{
+  animation: 5s linear 0s infinite running myRotate;
+} */
+
+@keyframes myRotate {
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+
+#box3{
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+  animation: 5s linear 0s infinite running myOpacity;
+}
+
+@keyframes myOpacity {
+  50%{
+    opacity: 0
+  }
+}
+
+#box4{
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+  animation: 5s linear 0s infinite running myScale;
+}
+
+@keyframes myScale {
+  50%{
+    transform: scale(0.5,0.5);
+  }
+}
+
+#box5{
+  width: 250px;
+  height: 250px;
+  background: red;
+  font-size: 225px;
+  text-align: center;
+  animation: 5s linear 0s infinite running myColorChange;
+}
+
+@keyframes myColorChange {
+  20%{
+    background-color: orange;
+  }
+  40%{
+    background-color: yellow;
+  }
+  60%{
+    background-color: green;
+  }
+  80%{
+    background-color: blue;
+  }
+  100%{
+    background-color: purple;
+  }
+}
+
