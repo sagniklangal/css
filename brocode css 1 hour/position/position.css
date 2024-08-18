@@ -1,0 +1,53 @@
+#box1{
+  border: 1px solid;
+  height: 300px;
+  width: 300px;
+  background-color: skyblue;
+
+  /* Making one box at center of other box */
+  /* Absolute positioning */
+  /* position: relative;
+
+  left: 250px;
+  top: 250px; */
+
+  /* Fixed */
+  /* position: fixed;
+  top: 0px;
+  right: 0px; */
+
+  /* Sticky */
+  position: sticky;
+  top: 0px;
+  bottom: 0px;
+
+}
+#box2{
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+
+  /* Making one box at center of other box */
+  /* Absolute positioning */
+  /* position: absolute;
+
+  top: 100px;
+  left: 100px; */
+  
+  /* Fixed */
+  /* position: absolute;
+
+  top: 100px;
+  left: 100px; */
+
+  /* Sticky */
+  position: absolute;
+
+  top: 100px;
+  left: 100px;
+}
+
+/* Making one box at center of other box */
+/* Absolute positioning */
+/* In absolute position the element searches for a parent that is positioned non statically such as relative or some of the other positions, if it does not find a parent it uses viewport. */
